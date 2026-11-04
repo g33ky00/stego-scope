@@ -4,7 +4,7 @@ Forensic analyzer for hidden messages in images. Detects steganography signals â
 
 **Made with [pollinations.ai](https://pollinations.ai)**
 
-![Made with pollinations.ai](https://pollinations.ai/badge-made-with.svg)
+[![Made with pollinations.ai](https://raw.githubusercontent.com/pollinations/pollinations/main/packages/ui/src/brand/badge-made-with.svg)](https://pollinations.ai/?ref=badge)
 
 ## What it does
 - LSB balance and chi-square per channel (R/G/B)
