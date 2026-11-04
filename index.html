@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>stego-scope — image steganography forensics</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1>stego-scope</h1>
+  <p>Forensic analyzer for hidden messages in images. Detects, never hides.</p>
+</header>
+<main>
+  <section class="upload">
+    <label for="file">Image (PNG/JPEG/SVG)</label>
+    <input type="file" id="file" accept="image/*" />
+    <button id="analyzeBtn" type="button">Analyze</button>
+  </section>
+  <section id="report" class="report" hidden></section>
+  <section class="byop">
+    <h2>Optional: Pollinations vision second opinion (BYOP)</h2>
+    <input type="password" id="key" placeholder="Your Pollinations API key (stays in this tab)" />
+    <button id="visionBtn" type="button">Ask vision model</button>
+    <pre id="visionOut"></pre>
+  </section>
+</main>
+<footer>
+  <img alt="Made with pollinations.ai" src="https://pollinations.ai/badge-made-with.svg" />
+</footer>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
