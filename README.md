@@ -1,5 +1,7 @@
 # stego-scope
 
+[![CI](https://github.com/g33ky00/stego-scope/actions/workflows/ci-unified.yml/badge.svg)](https://github.com/g33ky00/stego-scope/actions/workflows/ci-unified.yml)
+
 Forensic analyzer for hidden messages in images. Detects steganography signals — never hides.
 
 **Made with [pollinations.ai](https://pollinations.ai)**
@@ -23,3 +25,19 @@ node --test tests/analyzer.test.js
 
 ## License
 MIT
+
+## About
+
+Projet maintenu par g33ky00.
+
+## Structure
+
+Voir l'arborescence du dépôt.
+
+## Stack
+
+Voir le code source.
+
+## Contributing
+
+Les contributions sont les bienvenues via pull request.
