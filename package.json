@@ -1,6 +1,11 @@
 {
   "name": "stego-scope",
   "version": "0.1.0",
-  "scripts": { "test": "node --test tests/analyzer.test.js" },
-  "license": "MIT"
+  "scripts": {
+    "test": "node --test tests/analyzer.test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
