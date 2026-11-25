@@ -1,5 +1,7 @@
 # stego-scope
 
+**Version: 0.1.0**
+
 [![CI](https://github.com/g33ky00/stego-scope/actions/workflows/ci-unified.yml/badge.svg)](https://github.com/g33ky00/stego-scope/actions/workflows/ci-unified.yml)
 
 Forensic analyzer for hidden messages in images. Detects steganography signals — never hides.
