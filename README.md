@@ -1,5 +1,7 @@
 # stego-scope
 
+![CI](https://img.shields.io/github/actions/workflow/status/g33ky00/stego-scope/ci-unified.yml?branch=main)
+
 **Version: 0.1.0**
 
 [![CI](https://github.com/g33ky00/stego-scope/actions/workflows/ci-unified.yml/badge.svg)](https://github.com/g33ky00/stego-scope/actions/workflows/ci-unified.yml)
