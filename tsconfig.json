@@ -4,7 +4,9 @@
     "module": "ESNext",
     "strict": true,
     "skipLibCheck": false,
-    "noEmit": true
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": false
   },
-  "files": []
+  "files": ["src/analyzer.js", "src/main.js"]
 }
